@@ -275,3 +275,21 @@ width: 100%;
 }
 
 /* Row-5 CSS End * /
+/* Row-6 CSS Start */
+#row-6{
+    height: 400px;
+    width: 100%;
+    background:url(../images/holi-bg.cms)
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.holiday section{}
+.holi-top{}
+.holi-top h1{}
+.holi-top p{}
+.holi-bottom{}
+.holi-item-all
+.holi-item{}
+.holi-item i{}
+.holi-item h4{}
+/* Row-6 CSS End */
