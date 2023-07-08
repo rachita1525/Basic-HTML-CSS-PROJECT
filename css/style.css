@@ -4,29 +4,26 @@
 }
 /* Row-1 CSS End */
 #row1{
-    background-color: #2C3F50;
-    height: 30px;
-    width: 100%;
+background-color: #35363A;
+height: 30px;
+width: 100%;
 }
 .top-section{
     width: 90%;
     margin: 0 auto;
 }
-.left-link{
+.left-links{
     width: 60%;
     float: left;
     height: 100%;
 }
-.left-links ul{
-    color: #fff;
-}
+.left-links ul{}
 .left-links ul li{
     float: left;
     list-style: none;
     margin-left: 10px;
-    line-height: 30px;
     color: #fff;
-
+    line-height: 30px;
 
 }
 .left-links ul li a{
@@ -35,117 +32,246 @@
 }
 .social-links{
     width: 30%;
-    float: left;
+    float: right;
     height: 100%;
     text-align: right;
 }
 .social-links i{
     color: #fff;
-    border-right: 2px solid #000;
     line-height: 30px;
+    border-right: 2px solid #000;
     padding-right: 8px;
 }
-/* Row-1 CSS End*/
+/* Row-1 CSS End */
 
-/* Row-2 CSS Start*/
+/* Row-2 CSS Start */
 #row2{
-      height: 80px;
-      width: 100%;
-      background-color: #f8f5f5;
+    height: 80px;
+    width: 100%;
+    background: #fff;
 }
-.header_section{
-      width: 90%;
-      margin: 0 auto;
+.header-section{
+    width: 90%;
+    margin: 0px auto;
 }
-.Logo{
-width: 25%;
-float: left;
+.logo{
+    width: 25%;
+    float: left;
 }
-.Logo img{
-height: 50px;
-margin-top: 10px;
+.logo img{
+    height:60px;
+     margin-top: 10px;
+
 }
 .menu{
-width: 65%;
-float: right;
-text-align: right;
+    width: 65%;
+    float:right;
 }
-.menu ul{
-text-align: right;
-}
+.menu ul{}
 .menu ul li{
-float: left;
-line-height: 80px;
-width: 106px;
-text-align: center;
-list-style: none;
+    float: left;
+    margin-left: 7px;
+    line-height: 80px;
+    width: 100px;
+    text-align: center;
+    list-style: none;
 }
 .menu ul li a{
-text-decoration: none;
-text-transform: uppercase;
-color: #455964;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #35363A;
 }
-,menu ul li i{
-height: 30px;
-width: 30px;
-border: 2px solid #455964;
-border-radius: 100%;
-line-height: 30px;
+.menu ul li i{
+    height:40px;
+    width: 40px;
+    border: 8px solid black;
+    border-radius: 100%;
+    line-height: 40px;
 }
-/* Row-2 CSS End*/
-/* Row-3 CSS End */
 
-/* Row-3 CSS Start */
+/* Row-2 CSS End */
+
+/* Row-3 CSS start */
 #row3{
-    height: 500px;
-    width: 100%;
-background-image: url(https://www.hdwallpapers.in/download/paris_eiffel_tower_france_with_blue_sky_background_hd_travel-HD.jpg);
-background-repeat: no-repeat;
-background-size: cover;
-background-repeat: round;
-position: relative;
+    height:500px;
+    width:100%;
+    background-image: url(https://image.slidesdocs.com/responsive-images/background/travel-of-scenic-beach-view-of-golden-gate-bridge-powerpoint-background_338df3f472__960_540.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-repeat: round;
+    position: relative;
 }
-.overlayrow3{
-    height: 100%;
-    width: 100%;
-    background: rgba(0, 0, 0, .7);
-    position: absolute;
+.overplay3{
+    height:100%;
+    width:100%;
+    background: rgba(0,0,0,.7);
+    position:absolute;
 }
 .banner_section{
-text-align: center;
-color: #fff;
-position: absolute;
+    text-align: center;
+    color:azure;
+    position: absolute;
+    width:90%;
+    margin:0 auto;
 }
 .banner_content{
-
 }
 .banner_content h1{
-text-transform: uppercase;
-line-height: 70px;
-font-size: 50px;
-padding-top: 200px;
+    text-transform: uppercase;
+    font-size: 50px;
+    line-height: 70px;
+    padding-top:100px
 }
 .banner_content p{
-font-size: 18px;
-font-weight: 600;
-margin-bottom: 40px;
-
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 40px;
 }
 .banner_button{
-   
 }
 .banner_button button{
-background: none;
-padding: 10px 20px;
-border: 2px solid #fff;
-color: #fff;
-text-transform: uppercase;
-border-radius: 3px;
-margin-right: 10px;
+    padding:10px 20px;
+    border:2px solid #fff;
+    color:#fff;
+    background: none;
+    text-transform: uppercase;
+    border-radius: 3px;
+    margin-right: 10px;
 }
 .banner_button button:hover{
     background-color: #455964;
     transition: 1s;
 }
 
-/* Row-3 CSS End */
+/* Row-3 CSS End * / 
+
+/* Row-4 CSS start */
+
+#row4{
+    height:80px;
+    width:100%;
+    background: #234757;
+}
+.form-section{
+    width:90%;
+    margin:0 auto;
+}
+.text-part{
+    width:15%;
+    float:left;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+.text-part h4{
+    line-height: 32px;
+}
+.text-part h1{
+    color: #fff
+}
+.form-part{
+    padding-top: 23px;
+}
+.form-part form{
+    width: 80%;
+    float: left;
+  
+}
+.input-item{
+    float:left;
+    width: 320px;
+    
+}
+.input-item label{
+    font-size: 18px;
+    font-weight: 400;
+    color:rgb(194, 191, 191);
+    padding-right: 20px;
+}
+.input-item input[type= "text"]{
+    padding: 8px;
+    width:220px;
+    color:gray;
+    
+}
+.input-item input[type= "date"]{
+    padding: 8px;
+    width:220px;
+  
+}
+.input-item i{
+    color:gray;
+    position:absolute;
+    margin-left: -30px;
+    line-height: 35px;
+}
+.form-part button{
+    padding: 10px 20px;
+    background: lightgray;
+    border: none;
+}
+/* Row-4 CSS End * /  
+
+/* Row-5 CSS start */
+#row5{
+    height:400px;
+    width:100%;
+    background: #fff;
+}
+.offer-section{
+    width:90%;
+    margin:0 auto; 
+   
+}
+.offer-top{
+    text-align: center;
+    padding:40px 0px;
+}
+.offer-top h2{}
+.offer-top p{}
+.offer-bottom{}
+.all-offer-item{}
+.offer-item{
+    width: 230px;
+    float:left;
+    margin-left: 30px;
+    border: 4px solid gray;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px;
+    background: palevioletred;
+    transition: 1s;;
+}
+.offer-item:hover{
+    transform: scale(1.2);
+    background: #2d3E50;
+    color:#fff;
+}
+.offer-item img{
+    width:100%;
+    height:150px;
+}
+.offer-text{
+    width: 80%;
+    float: left;
+}
+.offer-text h3{
+    font-size: 14px;
+    margin-left: 10px;
+    padding-top: 10px;
+}
+.offer-text h4{
+    font-size: 12px;
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
+.offer-item:hover .offer-text h4{
+    color:gray;
+}
+.offer-icons{
+    width: 10%;
+    float: left;
+}
+.ofer-icons i{
+    line-height: 50px;
+}
+
+/* Row-5 CSS End * /
